@@ -19,38 +19,38 @@ body{
     overflow:hidden;
 }
 
-/* Faint background logo */
-.background-logo{
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
+.logo-bg{
+    position:absolute;
     width:500px;
-    opacity:0.05;
+    opacity:0.07;
     z-index:0;
 }
 
-/* Main content */
 .container{
-    text-align:center;
     z-index:1;
+    text-align:center;
 }
 
 h1{
-    font-size:3em;
-    letter-spacing:5px;
+    font-size:2.5rem;
+    letter-spacing:4px;
+    margin-bottom:10px;
+}
+
+p{
+    opacity:0.7;
 }
 </style>
 </head>
 
 <body>
 
-<!-- Background Logo -->
-<img src="logo.png" class="background-logo">
+<!-- Replace logo.png with your actual file name -->
+<img src="logo.png" class="logo-bg" alt="Poison Medic Logo">
 
 <div class="container">
     <h1>POISON MEDIC HQ</h1>
-    <p>Infection Sequence Initialized</p>
+    <p>Transmission Active</p>
 </div>
 
 </body>
