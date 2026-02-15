@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POISON MEDIC HQ</title>
+
+<style>
+body{
+    margin:0;
+    background:black;
+    color:#6AFFB2;
+    font-family:monospace;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+}
+
+/* Faint background logo */
+.logo-bg{
+    position:fixed;
+    width:500px;
+    opacity:0.05;
+    z-index:0;
+}
+
+/* Content layer */
+.content{
+    position:relative;
+    z-index:1;
+    text-align:center;
+}
+
+h1{
+    letter-spacing:4px;
+    margin-bottom:10px;
+}
+
+p{
+    opacity:0.7;
+    margin-bottom:30px;
+}
+
+button{
+    background:none;
+    border:1px solid #6AFFB2;
+    color:#6AFFB2;
+    padding:10px 20px;
+    margin:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#6AFFB2;
+    color:black;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- CHANGE THIS to your actual logo file name -->
+<img src="your-logo-file.png" class="logo-bg">
+
+<div class="content">
+    <h1>POISON MEDIC // LAB</h1>
+    <p>Former Assistant. Unauthorized Doctrine.</p>
+
+    <button>ENTER ARCHIVE</button>
+    <button>VIEW INCIDENTS</button>
+</div>
+
+</body>
+</html>
