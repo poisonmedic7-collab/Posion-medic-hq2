@@ -7,85 +7,50 @@
 
 <style>
 body{
-    <body>
-
-    <!-- Faint Background Logo -->
-    <img src="YOUR-LOGO-FILENAME.png" class="logo-bg">
-
-    <div class="container">
-        <h1>POISON MEDIC HQ</h1>
-        <p>CLASSIFIED ACCESS // LAB ENTRY</p>
-
-        <div class="buttons">
-            <button>ARCHIVE</button>
-            <button>REPORTS</button>
-            <button>DOCTRINE</button>
-            <button>TRANSMISSION</button>
-        </div>
-
-        <div class="opsec">
-            OPSEC: Social platforms are satellites. Full documentation lives here.
-        </div>
-    </div>
-
-</body>
-
+    margin:0;
+    background:black;
+    color:#6AFFB2;
+    font-family:monospace;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
 }
 
 /* Faint background logo */
-.logo-bg{
+.background-logo{
     position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
     width:500px;
     opacity:0.05;
     z-index:0;
 }
 
-/* Foreground content */
-.content{
-    position:relative;
-    z-index:1;
+/* Main content */
+.container{
     text-align:center;
+    z-index:1;
 }
 
 h1{
-    letter-spacing:4px;
-    margin-bottom:10px;
-}
-
-p{
-    opacity:0.7;
-    margin-bottom:30px;
-}
-
-button{
-    background:none;
-    border:1px solid #6AFFB2;
-    color:#6AFFB2;
-    padding:10px 20px;
-    margin:5px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-button:hover{
-    background:#6AFFB2;
-    color:black;
+    font-size:3em;
+    letter-spacing:5px;
 }
 </style>
-
 </head>
 
 <body>
 
-<!-- IMPORTANT: Replace the file name below with your actual uploaded logo name -->
-<img src="bbf0c3a2-42cf-4a92-bad5-6235e48d54af.png" class="logo-bg">
+<!-- Background Logo -->
+<img src="logo.png" class="background-logo">
 
-<div class="content">
-    <h1>POISON MEDIC // LAB</h1>
-    <p>Former Assistant. Unauthorized Doctrine.</p>
-
-    <button>ENTER ARCHIVE</button>
-    <button>VIEW INCIDENTS</button>
+<div class="container">
+    <h1>POISON MEDIC HQ</h1>
+    <p>Infection Sequence Initialized</p>
 </div>
 
 </body>
